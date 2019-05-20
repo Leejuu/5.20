@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta property="og:title" content="The Rock" />
+<meta property="og:type" content="video.movie" />
+<meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
+<meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+</head>
+<style>
+	.center{display: block; margin: auto; position: absolute;left: calc(50% - 150px); top: calc(50vh - 85px);}
+	.redrect{background: brown; width: 200px; height: 1000px;}
+</style>
+<body>
+	<div class = "redrect"></div>
+	<img src="center.png" class="center">
+	엡솔루트를 썼을때 중앙에 안온다면 계산해서 calc을 써보자.
+	vh라는 단위는 어떤상태에서도 전체를 100vh로 계산한다.bottom: 0px;으로 해도 되지만 안된다면. 그리고 상하로 정중앙에 오게 하고싶다면 top: 50%를 주자 안된다면 50vh로 준다.
+</body>
+</html>
